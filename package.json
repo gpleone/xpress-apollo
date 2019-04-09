@@ -1,0 +1,27 @@
+{
+  "name": "xpress-apollo",
+  "version": "1.0.0",
+  "description": "graphql &amp; api server for development pourposes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpleone/xpress-apollo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpleone/xpress-apollo/issues"
+  },
+  "homepage": "https://github.com/gpleone/xpress-apollo#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.4.8",
+    "express": "^4.16.4",
+    "graphql": "^14.2.1",
+    "nodemon": "^1.18.11"
+  }
+}
